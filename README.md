@@ -22,11 +22,10 @@ This application provides tools for EV owners and potential buyers to:
 ## Screenshots
 
 - **Home Page**: ![Home Page](images/screenshot_home.png)
-- **Charging Cost Calculator**: ![Charging Cost Calculator](images/screenshot_charging_cost.png)
-- **Comparison Tool**: ![Comparison Tool](images/screenshot_comparison.png)
+- **EV Subsidy Calculator**: !["EV Subsidy Calculator"](images/EVSubsidyCalculator.png)
+- **charing station**: ![charing_station](images/charing_station.png)
 - **Dealers Page**: ![Dealers Page](images/screenshot_dealers.png)
-- **Savings Calculator**: ![Savings Calculator](images/screenshot_saving.png)
-- **Schemes Page**: ![Schemes Page](images/screenshot_schemes.png)
+- **Savings Calculator**: ![Savings Calculator](images/screenshot_comparison.png)
 
 ## Installation
 
@@ -59,9 +58,9 @@ During the development of this project, we encountered several challenges:
 
 ## Contributors
 
-- **Shubham Pulke**: Frontend development and JavaScript implementation for calculators and interactive features
+- **Shubham Pukle**: Frontend development and JavaScript implementation for calculators and interactive features
 - **Sahil Ravate**: UI/UX design and CSS styling for responsive layouts and user interface
-- **Sumit Solumke**: Content creation, HTML structure, and testing across different browsers
+- **Sumit Solunke**: Content creation, HTML structure, and testing across different browsers
 
 ## License
 
