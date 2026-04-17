@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EV Savings Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+</div>
+
+<h1>Petrol vs EV Savings Calculator</h1>
+
+<label>Monthly Petrol Expense (₹):</label><br>
+<input type="number" id="petrolCost"><br><br>
+
+<label>Monthly EV Charging Cost (₹):</label><br>
+<input type="number" id="evCost"><br><br>
+
+<button onclick="calculateSavings()">Calculate Savings</button>
+
+<div id="savingsResult" class="result-box"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

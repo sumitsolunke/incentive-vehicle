@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Charging Cost Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="saving.html">Savings</a>
+</div>
+
+<h1 style="text-align:center;">EV Charging Cost Calculator</h1>
+
+<div class="calculator-box">
+
+    <label>Battery Capacity (kWh):</label>
+    <input type="number" id="batterySize"><br>
+
+    <label>Electricity Cost per Unit (₹/kWh):</label>
+    <input type="number" id="electricityRate"><br>
+
+    <label>Charge From (%) :</label>
+    <input type="number" id="startPercent"><br>
+
+    <label>Charge To (%) :</label>
+    <input type="number" id="endPercent"><br>
+
+    <label>Charging Type:</label>
+    <select id="chargingType">
+        <option value="1.0">Slow Charging (Home)</option>
+        <option value="1.1">Fast Charging (10% extra cost)</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="calculateChargingCost()">Calculate</button>
+
+    <div id="chargingResult" class="result-box"></div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

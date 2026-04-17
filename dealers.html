@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EV Dealers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="calculator.html">Subsidy</a>
+    <a href="charging.html">Charging Map</a>
+    <a href="dealers.html">Dealers</a>
+    <a href="charging-cost.html">Charging Cost</a>
+    <a href="saving.html">Savings</a>
+    <a href="login.html">Login</a>
+    <button onclick="toggleDarkMode()" class="dark-btn">🌙</button>
+</div>
+
+<h1>Nearby EV Dealers</h1>
+
+<div class="map-container">
+    <iframe
+        src="https://www.google.com/maps?q=EV+dealers+near+Mumbai&output=embed"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen="">
+    </iframe>
+</div>
+
+<a href="index.html" class="back-btn">Back to Home</a>
+
+</body>
+</html>

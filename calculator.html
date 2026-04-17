@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subsidy Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>EV Subsidy Calculator</h1>
+
+<label>Vehicle Price:</label><br>
+<input type="number" id="vehiclePrice" placeholder="Enter vehicle price" min="0"><br><br>
+
+<label>Select Vehicle Type:</label><br>
+<select id="vehicleType">
+    <option value="2w">2 Wheeler</option>
+    <option value="3w">3 Wheeler</option>
+    <option value="4w">4 Wheeler</option>
+</select><br><br>
+
+<label>Select State:</label><br>
+<select id="state">
+    <option value="MH">Maharashtra</option>
+    <option value="DL">Delhi</option>
+</select><br><br>
+
+<button onclick="calculateSubsidy()">Calculate Final Price</button>
+
+<div id="result" class="result-box"></div>
+
+<br>
+<a href="index.html" class="back-btn">Back to Home</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
